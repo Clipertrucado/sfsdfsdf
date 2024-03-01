@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="Esetilo1.css">
+<link
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+	rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<!-- Barra de navegación -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+		<!-- Container para contener el contenido del nav -->
+		<div class="container">
+
+			<!-- Logotipo -->
+			<a class="navbar-brand " href="#"><img src="logo.png" alt="Logo"></a>
+
+			<!-- Botón de hamburguesa para colapsar el menú en dispositivos pequeños -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarNav" aria-controls="navbarNav"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- Elementos del menú -->
+			<div class="collapse navbar-collapse" id="navbarNav">
+
+				<!-- Lista de enlaces -->
+				<ul class="navbar-nav ml-auto">
+
+					<!-- Enlace 1 -->
+					<li class="nav-item active"><a class="nav-link" href="#">Enlace
+							1</a></li>
+
+					<!-- Enlace 2 -->
+					<li class="nav-item"><a class="nav-link" href="#">Enlace 2</a>
+					</li>
+
+					<!-- Elemento del submenú -->
+					<li class="nav-item dropdown">
+						<!-- Título del submenú --> <a class="nav-link dropdown-toggle"
+						href="#" id="navbarDropdownMenuLink" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Submenú</a>
+
+						<!-- Elementos del submenú -->
+						<div class="dropdown-menu"
+							aria-labelledby="navbarDropdownMenuLink">
+							<!-- Opción 1 -->
+							<a class="dropdown-item" href="#">Opción 1</a>
+							<!-- Opción 2 -->
+							<a class="dropdown-item" href="#">Opción 2</a>
+							<!-- Opción 3 -->
+							<a class="dropdown-item" href="#">Opción 3</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Carousel -->
+	<div id="carouselExampleIndicators" class="carousel slide"
+		data-ride="carousel" data-interval="3000">
+		<!-- Carousel con intervalo de 3000ms (3 segundos) -->
+		<!-- Indicadores -->
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0"
+				class="active"></li>
+			<!-- Indicador para la primera imagen (activa) -->
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<!-- Indicador para la segunda imagen -->
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			<!-- Indicador para la tercera imagen -->
+		</ol>
+		<!-- Imágenes del carousel -->
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<!-- Primera imagen (activa) -->
+				<img class="d-block w-100"
+					src="https://www.1zoom.me/big2/551/278386-alexfas01.jpg"
+					alt="Super Mario Bros.">
+			</div>
+			<div class="carousel-item">
+				<!-- Segunda imagen -->
+				<img class="d-block w-100"
+					src="https://s1.1zoom.me/b5324/315/USA_Houses_Rivers_Evening_Winter_Chicago_city_Ice_561436_1920x1080.jpg"
+					alt="Call of Duty: Modern Warfare">
+			</div>
+			<div class="carousel-item">
+				<!-- Tercera imagen -->
+				<img class="d-block w-100"
+					src="https://s1.1zoom.me/b5050/394/USA_Houses_Night_New_York_City_From_above_516005_1920x1080.jpg"
+					alt="League of Legends">
+			</div>
+		</div>
+		<!-- Controles del carousel -->
+		<a class="carousel-control-prev" href="#carouselExampleIndicators"
+			role="button" data-slide="prev"> <span
+			class="carousel-control-prev-icon" aria-hidden="true"></span> <!-- Flecha previa -->
+			<span class="sr-only">Previous</span>
+		</a> <a class="carousel-control-next" href="#carouselExampleIndicators"
+			role="button" data-slide="next"> <span
+			class="carousel-control-next-icon" aria-hidden="true"></span> <!-- Flecha siguiente -->
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+</body>
+</html>
